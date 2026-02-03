@@ -12,5 +12,9 @@
     <StackPanel Orientation="Vertical">
         <Label>Név:</Label>
         <TextBlock Text="{Binding Name}"></TextBlock>
+        <Label>Adószám</Label>
+        <TextBlock Text="{Binding TaxNum}"></TextBlock>
+        <Label>Ki nem adott szabadságok</Label>
+        <TextBlock Text="{Binding KiNemAdottSzabadnap}"></TextBlock>
     </StackPanel>
 </Window>
